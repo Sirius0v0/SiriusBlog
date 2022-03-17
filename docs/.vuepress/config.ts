@@ -32,35 +32,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
+            text: '技巧杂货铺',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: 'js实用的一行代码', link: '/pages/a61298/' },
             ],
           },
           {
             text: '学习笔记',
             items: [
-              { text: '《JavaScript教程》', link: '/nte/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
+              { text: '《C++》', link: '/note/cpp/' },
+              { text: '《MATLAB》', link: '/note/matlab/' },
+              { text: '《Python》', link: '/note/python/' }
             ],
           },
         ],
@@ -69,9 +51,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '技术',
         link: '/technology/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+          {
+            text: '学习笔记',
+            items: [
+              { text: '《Git》', link: '/note/git/' },
+            ],
+          },
+          { text: '技术文档', link: '/pages/ad247c4332211551/' },
           { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
           { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
@@ -80,9 +67,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/more/',
         items: [
           { text: '学习', link: '/pages/f2a556/' },
-          { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-          { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '友情链接', link: '/friends/' },
         ],
       },
@@ -90,11 +74,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
       },
       {
         text: '索引',
@@ -108,7 +87,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.jpg', // 导航栏logo
-    repo: 'Sirius0v0', // 导航栏右侧生成Github链接
+    repo: 'Sirius0v0/SiriusBlog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -122,6 +101,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // archive: false, // 是否打开归档功能，默认true
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
+    bodyBgImg: "https://cdn.jsdelivr.net/gh/Sirius0v0/image_store/img/page_img2.jpg",
     // bodyBgImg: [
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
@@ -133,7 +113,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //   '图标地址1',
     //   '图标地址2'
     // ],
-    // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
+    contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
     // updateBar: { // 最近更新栏
     //   showToArticle: false, // 显示到文章页底部，默认true
@@ -154,9 +134,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: 'https://cdn.jsdelivr.net/gh/Sirius0v0/image_store/img/avatar.png',
       name: 'Sirius0v0',
-      slogan: '怕什么真理无穷,进一寸有一寸的欢喜',
+      slogan: '怕什么真理无穷，进一寸有一寸的欢喜',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -199,7 +179,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: '个人博客,技术文档,学习,C/Cpp,Matlab,python,github,markdown',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
