@@ -16,3 +16,6 @@ urls.txt
 
 # mac
 .DS_Store
+
+# 个人信息
+docs/.vuepress/config/secret.js
