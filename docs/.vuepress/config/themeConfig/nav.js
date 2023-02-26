@@ -29,10 +29,10 @@ module.exports = [
                 text: '学习笔记',
                 items: [
                     { text: '《Git》', link: '/note/git/' },
+                    { text: '《CMake》', link: '/note/cmake' },
                 ],
             },
             { text: '技术文档', link: '/pages/ad247c4332211551/' },
-            { text: 'GitHub技巧', link: '/pages/f44d2f9ad04ab8d3/' },
             { text: '博客搭建', link: '/pages/95f89f/' },
         ],
     },
