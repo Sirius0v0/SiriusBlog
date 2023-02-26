@@ -29,7 +29,7 @@ module.exports = [
                 text: '学习笔记',
                 items: [
                     { text: '《Git》', link: '/note/git/' },
-                    { text: '《CMake》', link: '/note/cmake' },
+                    { text: '《CMake》', link: '/note/cmake/' },
                 ],
             },
             { text: '技术文档', link: '/pages/ad247c4332211551/' },
