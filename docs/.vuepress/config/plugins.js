@@ -107,4 +107,11 @@ module.exports = [
             },
         },
     ],
+
+    [
+        'vuepress-plugin-mathjax', // markdown数学公式
+        {
+            target: 'svg',
+        },
+    ],
 ]
