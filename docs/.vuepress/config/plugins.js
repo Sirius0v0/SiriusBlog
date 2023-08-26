@@ -107,11 +107,17 @@ module.exports = [
             },
         },
     ],
-
     [
-        'vuepress-plugin-mathjax', // markdown数学公式
+        '@maginapp/vuepress-plugin-katex',
         {
-            target: 'svg',
-        },
+            delimiters: 'dollars'
+        }
     ],
+
+    // [
+    //     'vuepress-plugin-mathjax', // markdown数学公式
+    //     {
+    //         target: 'svg',
+    //     },
+    // ],
 ]
